@@ -6,4 +6,19 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="AeProtocol.Client\**" />
+      <Compile Remove="AeProtocol.Server\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="AeProtocol.Client\**" />
+      <EmbeddedResource Remove="AeProtocol.Server\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="AeProtocol.Client\**" />
+      <None Remove="AeProtocol.Server\**" />
+    </ItemGroup>
+
 </Project>

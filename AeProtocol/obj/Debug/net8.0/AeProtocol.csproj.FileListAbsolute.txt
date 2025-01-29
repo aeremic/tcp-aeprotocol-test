@@ -1,0 +1,12 @@
+/Users/eremic/tcp-aeprotocol-test/aeprotocol/bin/Debug/net8.0/AeProtocol.deps.json
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/bin/Debug/net8.0/AeProtocol.dll
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/bin/Debug/net8.0/AeProtocol.pdb
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/AeProtocol.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/AeProtocol.AssemblyInfoInputs.cache
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/AeProtocol.AssemblyInfo.cs
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/AeProtocol.csproj.CoreCompileInputs.cache
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/AeProtocol.sourcelink.json
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/AeProtocol.dll
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/refint/AeProtocol.dll
+/Users/eremic/tcp-aeprotocol-test/AeProtocol/obj/Debug/net8.0/AeProtocol.pdb
+/Users/eremic/tcp-aeprotocol-test/aeprotocol/obj/Debug/net8.0/ref/AeProtocol.dll
