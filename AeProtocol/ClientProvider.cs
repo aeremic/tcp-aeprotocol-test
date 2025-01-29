@@ -34,9 +34,12 @@ public class ClientProvider
         await _client.ConnectAsync(_ipEndPoint);
     }
 
-    public Task StartListeningAsync()
+    public Task StartListeningAsync(Action<string> receiveMessageTriggerFunc)
     {
-        new Thread(StartListeningThread).Start();
+        new Thread(() =>
+        {
+            StartListeningThread(receiveMessageTriggerFunc);
+        }).Start();
 
         return Task.CompletedTask;
     }
@@ -60,14 +63,15 @@ public class ClientProvider
         return Task.CompletedTask;
     }
 
-    private async void StartListeningThread()
+    private async void StartListeningThread(Action<string> receiveMessageTriggerFunc)
     {
         while (true)
         {
             var buffer = new byte[1_024];
             var received = await _client!.ReceiveAsync(buffer, SocketFlags.None);
             var receivedMessage = Encoding.UTF8.GetString(buffer, 0, received);
-            
+
+            receiveMessageTriggerFunc(receivedMessage);
             MessageReceivedCallback?.Invoke(this, receivedMessage);
         }
     }

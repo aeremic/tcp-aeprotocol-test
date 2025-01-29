@@ -1,4 +1,4 @@
-﻿using AeProtocol;
+﻿namespace AeProtocol.Server;
 
 internal abstract class Server
 {
@@ -12,7 +12,7 @@ internal abstract class Server
 
         Console.WriteLine("Server connected. Listening to messages...");
         
-        server.MessageReceivedCallback += ReceiveMessageAsync;
+        // server.MessageReceivedCallback += ReceiveMessageAsync;
 
         Console.WriteLine("Server waiting for message input...");
         var message = Console.ReadLine() ?? string.Empty;
@@ -21,8 +21,8 @@ internal abstract class Server
         Console.WriteLine("Server message sent.");
     }
 
-    private static void ReceiveMessageAsync(object? sender, string e)
-    {
-        Console.WriteLine($"Server message received: {e}");
-    }
+    // private static void ReceiveMessageAsync(object? sender, string e)
+    // {
+    //     Console.WriteLine($"Server message received: {e}");
+    // }
 }

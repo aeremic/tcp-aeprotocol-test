@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AeProtocol.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb5a9689a034e8f08eb4c6308afd0efef30576aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+390905600def27c27b5a5f49c404621dd2e18e62")]
 [assembly: System.Reflection.AssemblyProductAttribute("AeProtocol.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AeProtocol.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
